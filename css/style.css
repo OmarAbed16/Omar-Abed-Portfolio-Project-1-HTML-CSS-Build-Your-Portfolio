@@ -45,5 +45,104 @@ nav{
 
 #nav-dropdown{ display: none;font-size: 100%;padding: 20px 10px;cursor: pointer;}
 #nav-dropdown:hover{background-color: rgba(255, 255, 255, 0.25); border-radius: 50%;align-items: center;justify-content: center;}
+/*nav end*/
 
+
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+
+
+.HeroContent {
+    margin: auto 0px;
+    flex: 1;
+    padding: 100px;
+    user-select: none;
+}
+
+.main-name {
+    font-weight: 700;
+    color: #80ed99;
+}
+
+.specializing {
+    color: #85f69f;
+}
+
+.heroline {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+.buttonGroup {
+    display: flex;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+.buttonGroup button{
+    padding: 10px 20px;
+    border: none;
+  
+    font-size: 1.22em;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #1d8637;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.SideImg {
+    width: 30%;
+    margin: auto 10px;
+    margin-right: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.SideImg img{
+    width: 100%;
+}
+.top-right-corner, .bottom-left-corner {
+    position: absolute;
+}
+
+.bottom-left-corner {
+    left: -50px;
+    bottom: -50px;
+    rotate: -90deg;
+}
+
+.top-right-corner {
+    right: -50px;
+    top: -50px;
+    rotate: 90deg;
+}
+
+.hr1 {
+    width: 150px;
+    height: 10px;
+    border: none;
+    background: #80ed99;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.hr2 {
+    width: 10px;
+    height: 120px;
+    border-bottom-left-radius: 3px;
+    background: #80ed99;
+    border: none;
+    border-bottom-right-radius: 3px;
+}
 
