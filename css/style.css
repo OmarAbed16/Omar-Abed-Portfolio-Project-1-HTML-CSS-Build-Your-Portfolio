@@ -392,3 +392,59 @@ form h2 .SocialLinks i:hover{
 }
 
 
+
+
+
+
+
+
+.Highlights {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 10px));
+grid-template-rows: 80px 1fr;
+    padding: 0px 100px ;
+
+}
+
+.Highlights .heading {
+    grid-column: 1/span 3;
+}
+
+.Highlights .light {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+
+    transition-duration: 0.25s;
+}
+
+.Highlights .light i {
+    font-size: 3rem;
+    color:#80ed99
+}
+
+.Highlights .light .service-icon {
+    padding: 0px 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.light h2{
+    color:#80ed99
+}
+.light:hover {
+    background-color: #80ed99;
+    color: #176d2d
+}
+.light:hover h2,.light:hover i{
+    color: #176d2d
+}
+
+
+

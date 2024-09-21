@@ -92,6 +92,18 @@ form h2 .SocialLinks {
 }
 
 
+.Highlights {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto;
+    padding: 5px;
+    row-gap: 0px;
+    overflow-y: scroll;
+  }
+
+  .Highlights .heading {
+    grid-column:1;
+}
+
 
 
   }
