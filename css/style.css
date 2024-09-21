@@ -301,10 +301,9 @@ form h2 .SocialLinks i:hover{
     color: white;
     display: grid;
     grid-template-columns: repeat(3, calc(33% - 10px));
-    grid-template-rows: 100px repeat(2, calc(50%));
-    row-gap: 50px;
-    padding: 100px ;
-    box-sizing: border-box;
+
+    padding: 0px 100px ;
+
 }
 
 .services .heading {
@@ -345,3 +344,51 @@ form h2 .SocialLinks i:hover{
 .service:hover h2,.service:hover i{
     color: #176d2d
 }
+
+
+
+
+
+
+
+
+
+
+.testimonials {
+
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 10px));
+
+    padding: 0px 100px ;
+   margin-bottom: 20px;
+    
+}
+
+.testimonials .heading {
+    grid-column: 1/span 3;
+}
+
+.testimonials .feedbacks {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+
+    transition-duration: 0.25s;
+}
+
+
+.testimonials .feedbacks img{width: 100%;}
+
+
+
+.feedbacks:hover {
+    background-color: #80ed99;
+}
+
+
