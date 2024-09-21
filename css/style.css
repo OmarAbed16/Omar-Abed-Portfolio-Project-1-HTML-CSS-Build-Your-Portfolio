@@ -448,3 +448,56 @@ grid-template-rows: 80px 1fr;
 
 
 
+
+
+
+
+
+.Projects {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 10px));
+grid-template-rows: 80px 1fr;
+    padding: 0px 100px ;
+
+}
+
+.Projects .heading {
+    grid-column: 1/span 3;
+}
+
+.Projects .Project {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+
+    transition-duration: 0.25s;
+}
+
+.Projects .Project i {
+    font-size: 3rem;
+    color:#80ed99
+}
+
+.Projects .Project .Project-icon {
+    padding: 0px 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.Project h2{
+    color:#80ed99
+}
+.Project:hover {
+    background-color: #80ed99;
+    color: #176d2d
+}
+.Project:hover h2,.Project:hover i{
+    color: #176d2d
+}
+

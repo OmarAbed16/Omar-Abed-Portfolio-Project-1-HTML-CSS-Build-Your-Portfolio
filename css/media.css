@@ -106,6 +106,20 @@ form h2 .SocialLinks {
 
 
 
+
+.Projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto;
+    padding: 5px;
+    row-gap: 0px;
+    overflow-y: scroll;
+  }
+
+  .Projects .heading {
+    grid-column:1;
+}
+
+
   }
 
 
