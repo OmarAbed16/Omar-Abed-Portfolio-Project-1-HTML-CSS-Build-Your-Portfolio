@@ -293,3 +293,55 @@ form h2 .SocialLinks i:hover{
     font-size: 2.5rem;
     color: #80ed99;
 }
+
+
+
+
+.services {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 10px));
+    grid-template-rows: 100px repeat(2, calc(50%));
+    row-gap: 50px;
+    padding: 100px ;
+    box-sizing: border-box;
+}
+
+.services .heading {
+    grid-column: 1/span 3;
+}
+
+.services .service {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+
+    transition-duration: 0.25s;
+}
+
+.services .service i {
+    font-size: 3rem;
+    color:#80ed99
+}
+
+.services .service .service-icon {
+    padding: 0px 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.service h2{
+    color:#80ed99
+}
+.service:hover {
+    background-color: #80ed99;
+    color: #176d2d
+}
+.service:hover h2,.service:hover i{
+    color: #176d2d
+}

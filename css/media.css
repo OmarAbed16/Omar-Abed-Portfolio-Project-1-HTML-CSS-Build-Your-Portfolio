@@ -66,4 +66,20 @@ form h2 .SocialLinks {
 
 .heading {text-align: center;}
 
+.services {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto;
+    padding: 5px;
+    row-gap: 0px;
+    overflow-y: scroll;
   }
+
+  .services .heading {
+    grid-column:1;
+}
+
+
+
+  }
+
+
