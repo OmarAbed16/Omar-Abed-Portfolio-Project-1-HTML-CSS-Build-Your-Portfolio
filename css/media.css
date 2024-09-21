@@ -46,4 +46,24 @@ background: linear-gradient(225deg, rgba(19,17,16,255), #24344b);
     font-size: 1.25em;
     
 }
+
+
+
+
+.contactMe {padding: 50px 0px 0px 0px;
+grid-template-columns: 0% 100% 0%;
+}
+
+.contactinfo {display: none;}
+form h2 .SocialLinks {
+    margin:10px 0px;
+}
+
+.contactMe form h2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {text-align: center;}
+
   }
