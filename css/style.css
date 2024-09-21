@@ -6,7 +6,9 @@
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background: linear-gradient(-85deg, rgba(19,17,16,255), #24344b);
     height: 100vh;
@@ -499,5 +501,61 @@ grid-template-rows: 80px 1fr;
 }
 .Project:hover h2,.Project:hover i{
     color: #176d2d
+}
+
+
+
+
+
+.Skills {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, calc(33% - 10px));
+grid-template-rows: 80px 1fr;
+    padding: 0px 100px ;
+
+}
+
+.Skills .heading {
+    grid-column: 1/span 3;
+}
+
+.Skills .skill {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.437);
+    border-radius: 5px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+
+    transition-duration: 0.25s;
+}
+
+.Skills .skill i {
+    font-size: 3rem;
+    color:#80ed99
+}
+
+.Skills .skill .service-icon {
+    padding: 0px 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.skill h2{
+    color:#80ed99
+}
+.skill:hover {
+    background-color: #80ed99;
+    color: #176d2d
+}
+.skill:hover h2,.skill:hover i{
+    color: #176d2d
+}
+
+.skill ul{
+list-style-type: none;
 }
 

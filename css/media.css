@@ -120,6 +120,22 @@ form h2 .SocialLinks {
 }
 
 
+
+
+.Skills {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto;
+    padding: 5px;
+    row-gap: 0px;
+    overflow-y: scroll;
+  }
+
+  .Skills .heading {
+    grid-column:1;
+}
+
+
+
   }
 
 
